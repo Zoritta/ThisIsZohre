@@ -20521,6 +20521,24 @@ body.loaded {
 .about-us-left-content-wrap .design-card .card-info p {
   color: var(--color-heading);
 }
+.counter-wrapper {
+  display: flex;
+  align-items: baseline; /* Aligns the number and text properly */
+  gap: 8px; /* Adds spacing between the number and text */
+}
+
+.counter {
+  font-size: 24px; /* Adjust based on your design */
+  font-weight: bold;
+}
+
+.card-para {
+  font-size: 24px; /* Match the counter font-size */
+  font-weight: normal;
+  line-height: 1; /* Ensures no extra spacing */
+  margin: 0; /* Removes default paragraph margin */
+  display: inline-block; /* Helps with alignment */
+}
 
 /*===============================
   Tmp Custom Box Tag
